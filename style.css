@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  font-family: "Quicksand", "Helvetica", "Sans-serif";
+}
+
+img {
+  width: 94%;
+  margin-bottom: -47px;
+}
+
+h1 {
+  font-family: "Quicksand", "Helvetica", "sans-serif";
+  font-size: 53px;
+}
+
+p {
+  font-size: 30px;
+}
+
+span{
+  color: #fece43;
+}
+
+.container-fluid {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+button {
+  width: 142px;
+  height: 44px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.signin {
+  background-color: #fece43;
+  color: white;
+  border: none;
+}
+
+.signup {
+  background-color: white;
+  color: #fece43;
+  border: #fece43 2px solid;
+}
